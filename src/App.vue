@@ -8,12 +8,7 @@
         </span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn
-        text
-        target="_blank"
-      >
-        <span class="mr-2">MASTER 1</span>
-      </v-btn>
+      <span class="mr-2">Audrey | Mohammed | Phet | Theo | Bernard</span>
     </v-app-bar>
 
     <v-content>
