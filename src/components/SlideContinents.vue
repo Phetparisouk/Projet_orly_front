@@ -29,7 +29,7 @@
             justify="center"
           >
           <!--TODO: image dont le titre est {{continent}}-->
-          <div class="background" ><img src="../../public/images/Afrique.jpeg"></div>
+          <!--<div class="background" ><img src="../../public/images/Afrique.jpeg"></div>-->
             <div class="display-3"> {{ continent }} </div>
           </v-row>
         </v-sheet>
