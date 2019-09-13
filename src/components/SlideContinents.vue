@@ -29,9 +29,8 @@
             justify="center"
           >
           <!--TODO: image dont le titre est {{continent}}-->
-          <img src = "C:\Users\ohounkonnou\Desktop\vuetify_front_project\projet_orly_front\src\Afrique.jpeg">
+          <div class="background" ><img src="../../public/images/Afrique.jpeg"></div>
             <div class="display-3"> {{ continent }} </div>
-          <img>
           </v-row>
         </v-sheet>
       </v-carousel-item>

@@ -6,7 +6,6 @@
         Veuillez réessayer.
     </div>
     <img src="../../public/images/notfound.jpeg">
-    </img>
     <br><br>
     <!--TODO: Vue FormCriteres pour le href-->
     <v-btn 
