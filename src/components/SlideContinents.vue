@@ -1,22 +1,10 @@
 <template>
-  <div> 
-    <br><br>
-    <div class="container">
-      <v-autocomplete
-        label="Recherche globale"
-        :items="componentsRechercheGlobale"
-      ></v-autocomplete>
-    </div>
-
-
-    <v-toolbar-title class="headline text-uppercase" align="center">
-      Veuillez sélectionner un continent 
-    </v-toolbar-title>
-
-    <v-carousel>
+  <div>
+    <v-carousel v-model="continent">
       <v-carousel-item
         v-for="(continent) in continents"
         :key="continent"
+        :value="continent"
       >
         <v-sheet
           height="100%"
@@ -28,10 +16,8 @@
             align="center"
             justify="center"
           >
-          <!--TODO: image dont le titre est {{continent}}-->
-          <img src = "C:\Users\ohounkonnou\Desktop\vuetify_front_project\projet_orly_front\src\Afrique.jpeg">
+            <img src="../../public/images/Afrique.jpeg"/>
             <div class="display-3"> {{ continent }} </div>
-          <img>
           </v-row>
         </v-sheet>
       </v-carousel-item>
@@ -51,14 +37,14 @@ export default {
           'Asie',
           'Océanie'
         ],
-
-        //TODO: Les villes de l'api
-        componentsRechercheGlobale: [
-          'Paris', 'Los Angeles', 'Miami', 'Abidjan', 'Amsterdam', 'Phuket', 'Selection Controls', 'Sliders', 'Textareas', 'Text Fields',
-        ],
-        //continent: 'Afrique'
+        continent: 'Afrique'
       }
     },
+     computed: {
+       imgName: function () {
+        return '../../public/images/' + this.continent + '.jpeg'
+      }
+     },
      methods: {
       goForm (varContinent) {
         this.continent = varContinent

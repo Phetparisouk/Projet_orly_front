@@ -3,7 +3,6 @@ import Router from 'vue-router'
 import SlideContinents from '@/components/SlideContinents'
 import FormVoyage from '@/components/FormVoyage'
 import FormNotFound from '@/components/FormNotFound'
-import FormCriteres from '@/components/FormCriteres'
 
 Vue.use(Router)
 
@@ -26,12 +25,6 @@ export default new Router({
       path: '/formnotfound',
       name: 'formnotfound',
       component: FormNotFound,
-    },
-    {
-      path: '/formcriteres',
-      name: 'formcriteres',
-      component: FormCriteres,
-      props: true
     }
   ]
 })
