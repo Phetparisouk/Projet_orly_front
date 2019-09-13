@@ -70,6 +70,7 @@ export default {
             axios.post(`http://localhost:8000/paysByContinent`, nomContinent)
                 .then(response => {
                     this.componentsPays = response.data
+                    this.pays = this.componentsPays[0]
                 })
                 .catch(e => {
                     this.errors.push(e)
