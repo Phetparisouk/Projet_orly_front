@@ -16,7 +16,7 @@
             align="center"
             justify="center"
           >
-            <img src="../../public/images/Afrique.jpeg"/>
+<!--            <img src="../../public/images/Afrique.jpeg"/>-->
             <div class="display-3"> {{ continent }} </div>
           </v-row>
         </v-sheet>
