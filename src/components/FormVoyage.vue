@@ -14,7 +14,7 @@
                 <v-autocomplete v-model="mois" label="Mois" :items="componentsMois"></v-autocomplete>
 
                 <v-btn @click="search()">Rechercher</v-btn>
-
+                <v-btn @click="back()" class="ml-5">Retour Continent</v-btn>
                 <v-data-table
                         v-show="afficheTab"
                         :headers="headers"
@@ -101,6 +101,9 @@ export default {
                     this.afficheTab = false
                     this.errors.push(e)
                 })
+        },
+        back () {
+            this.$router.push('/')
         }
     }
 }
