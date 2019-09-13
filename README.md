@@ -4,7 +4,7 @@ Front end du projet Orly (M1 php)
 
 # Bienvenue au projet OrLit !!! Trouvez la destination de vos reves !
 
-> Projet realise par Audrey LOPEZ-CORREIA, Phetparisouk SOUVANNASACD, Bernard HOUNKONNOU, Momotaro NUJABNUJABNESS, Theo LAURENT
+> Projet realise par Audrey LOPEZ-CORREIA, Phetparisouk SOUVANNASACD, Bernard HOUNKONNOU, Mohammed EL ASSOURI, Theo LAURENT
 
 # Introduction
 Veuillez mettre votre ceinture avant le decollage.
