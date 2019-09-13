@@ -5,7 +5,8 @@
         Désolé, aucune ville n'a été trouvé en fonction de vos critères.
         Veuillez réessayer.
     </div>
-    <img src="../../public/images/notfound.jpeg">
+    <img src="https://teodessindepresse.files.wordpress.com/2012/08/2012-08-05-640.jpg">
+    </img>
     <br><br>
     <!--TODO: Vue FormCriteres pour le href-->
     <v-btn 
