@@ -20,7 +20,7 @@
                         :headers="headers"
                         :items="villes"
                         :items-per-page="5"
-                        class="elevation-1"
+                        class="elevation-1 mt-5"
                 ></v-data-table>
             </v-col>
         </v-row>
@@ -35,7 +35,7 @@ export default {
         return {
             headers: [
                 { text: 'Ville', value: 'nom_ville' },
-                { text: 'Budget', value: 'budget' },
+                { text: 'Budget (€)', value: 'budget' },
                 { text: 'Pays', value: 'nom_pays' },
                 { text: 'Type Voyage', value: 'nom_type' },
                 { text: 'Degre (°C)', value: 'degre' },
