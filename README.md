@@ -38,4 +38,4 @@ Vous trouverez ci-joint les 2 dépôts du projet :
  4. Ouvrez une console de commande et entrez le commande suivante (toujours dans le dossier Front) 
 	* **npm run serve**
 
-PS: **Le front communique avec le backend sur le port 8000 l'api back doit donc être démarrer sur le port 8000 **
+PS:  **Le front communique avec le backend sur le port 8000 l'api back doit donc être démarrer sur le port 8000 **
