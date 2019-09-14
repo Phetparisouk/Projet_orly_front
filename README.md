@@ -1,4 +1,4 @@
-# Projet_orly_back
+# Projet_orly_front
 Back end du projet Orly (M1 PHP)
 
 ## Bienvenue au projet OrLit !!! Trouvez la destination de vos reves ! et Dormez Riche !
