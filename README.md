@@ -33,9 +33,9 @@ Vous trouverez ci-joint les 2 dépôts du projet :
 
 ## Étapes a suivre pour le projet front
 
- 3. Dans le dossier Front : npm install.
+ 3. Dans le dossier Front : **npm install.**
  
- 4. Ouvrez une console de commande et entrez le commande suivante (toujours dans le dossier Front) ;
+ 4. Ouvrez une console de commande et entrez le commande suivante (toujours dans le dossier Front) 
 	* **npm run serve**
 
 PS: **Le front communique avec le backend sur le port 8000 l'api back doit donc être démarrer sur le port 8000 **
