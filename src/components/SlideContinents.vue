@@ -16,8 +16,12 @@
             align="center"
             justify="center"
           >
-<!--            <img src="../../public/images/Afrique.jpeg"/>-->
-            <div class="display-3"> {{ continent }} </div>
+<v-img position="background-position" src="../../public/images/Afrique.jpeg">
+            <br><br><br><br><br><br><br><br><br>
+            <div class="display-3"
+            align="center"
+            justify="center">{{ continent }} </div>
+          </v-img>
           </v-row>
         </v-sheet>
       </v-carousel-item>
